@@ -1,0 +1,15 @@
+{
+  "name": "sonarqube-for-javascript",
+  "version": "1.0.0",
+  "description": "Project for testing sonarqube in JavaScript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sonar": "node sonar-project.js"
+  },
+  "author": "Mikko Luhtasaari",
+  "license": "MIT",
+  "devDependencies": {
+    "sonarqube-scanner": "^2.6.0"
+  }
+}
